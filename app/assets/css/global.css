@@ -1,0 +1,28 @@
+/* Variables CSS con tus colores */
+:root {
+  --primary-blue: #0A66C2;
+  --dark-gray: #5E5E5E;
+  --light-gray: #F2F2F2;
+  --white: #FFFFFF;
+  --accent-green: #13A863;
+}
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  color: var(--dark-gray);
+  background-color: var(--white);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}

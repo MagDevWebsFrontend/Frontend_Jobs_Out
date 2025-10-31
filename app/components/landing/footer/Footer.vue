@@ -1,29 +1,25 @@
 <template>
-  <div class="home">
+  <footer class="footer">
     <div class="container">
-      <h1>¡Bienvenido a Jobs Out!</h1>
-      <p>Esta es la página principal</p>
+      <p>&copy; 2024 Jobs Out - Todos los derechos reservados</p>
     </div>
-  </div>
+  </footer>
 </template>
 
 <script setup>
-// Página simple
+// Script básico
 </script>
 
 <style scoped>
-.home {
+.footer {
+  background-color: #F2F2F2;
   padding: 2rem 0;
+  text-align: center;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
-}
-
-h1 {
-  color: #0A66C2;
-  margin-bottom: 1rem;
 }
 </style>
