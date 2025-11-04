@@ -1,14 +1,20 @@
 <template>
   <div class="home">
     <div class="container">
-      <h1>¡Bienvenido a Jobs Out!</h1>
-      <p>Esta es la página principal</p>
+      <CardInit />
+      <CardExampleComponent />
+      <CardGuide />
+      <CardUserOpinion />
     </div>
   </div>
 </template>
 
 <script setup>
-// Página simple
+//scripts
+import CardInit from '@/components/landing/main/CardInit.vue'
+import CardExampleComponent from '@/components/landing/main/CardExaple.vue'
+import CardGuide from '@/components/landing/main/CardGuide.vue'
+import CardUserOpinion from '@/components/landing/main/CardUserOpinion.vue'
 </script>
 
 <style scoped>

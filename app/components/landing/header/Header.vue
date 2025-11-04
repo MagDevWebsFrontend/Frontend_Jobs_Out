@@ -4,7 +4,7 @@
       <div class="header-content">
         <!-- Logo -->
         <div class="logo">
-          <h1>Jobs Out</h1>
+          <h1 @click="handleHome">Jobs Out</h1>
         </div>
 
         <!-- Menú de navegación -->
@@ -38,12 +38,21 @@
 
 <script setup>
 const handleLogin = () => {
+  navigateTo("/auth")
   console.log('Login clicked')
 }
 
 const handleSignup = () => {
+  navigateTo("/auth")
   console.log('Signup clicked')
 }
+
+const handleHome = () =>{
+  navigateTo("/")
+}
+
+// imports manales
+
 </script>
 
 <style scoped>

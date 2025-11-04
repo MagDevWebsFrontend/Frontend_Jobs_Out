@@ -1,6 +1,6 @@
 <template>
-    <h1>Opiniones de usuarios</h1>
-    <div class="container-card-user-opinion">
+    <h1>Como funciona</h1>
+    <div class="container-card-guide">
         <div class="item">1</div>
         <div class="item">2</div>
         <div class="item">3</div>
@@ -8,7 +8,7 @@
 </template>
 
 <style scoped>
-.container-card-user-opinion {
+.container-card-guide {
   display: flex;
   gap: 40px; /* Gap aún más grande */
   padding: 40px;
