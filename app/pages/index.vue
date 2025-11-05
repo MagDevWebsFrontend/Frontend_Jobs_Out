@@ -10,11 +10,12 @@
 </template>
 
 <script setup>
-//scripts
+//imports
 import CardInit from '@/components/landing/main/CardInit.vue'
 import CardExampleComponent from '@/components/landing/main/CardExaple.vue'
 import CardGuide from '@/components/landing/main/CardGuide.vue'
 import CardUserOpinion from '@/components/landing/main/CardUserOpinion.vue'
+import LandingLayout from '@/Layouts/default.vue'
 </script>
 
 <style scoped>

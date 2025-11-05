@@ -5,10 +5,16 @@
             <p class="textAlt">Encuentra tu trabajo ideal!<br>En cuba, desde cualquier ciudad!</p>
         </div>
         <div class="items-general cont-button">
-            <button class="btn-start">Get Started</button>
+            <button class="btn-start" @click="iniciar">Get Started</button>
         </div>
     </div>
 </template>
+
+<script setup>
+const iniciar = () => {
+  navigateTo('auth/')
+}
+</script>
 
 <style>
 .cont-welcome{
@@ -34,7 +40,6 @@
 .cont-text{
   width: 100%;
   flex-grow: 1;
-  display: flex;
   justify-content: left;
 }
 

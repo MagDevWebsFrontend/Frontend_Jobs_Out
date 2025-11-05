@@ -1,5 +1,16 @@
 <template>
     <div>
-        <h1>pagina de autenticacion</h1>
+        <AuthContainer>
+        </AuthContainer>
     </div>
 </template>
+
+<script setup>
+//imports
+import AuthContainer from '@@/app/components/auth/Auth.vue'
+
+//definir layout
+definePageMeta({
+    layout: 'auth'
+})
+</script>

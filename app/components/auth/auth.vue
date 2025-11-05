@@ -1,16 +1,26 @@
 <template>
-    <div>
-        <h1>aqui va el container</h1>
+    <div class="auth-container">
+        <h1>LogIn</h1>
+        <Options></Options>
+        <Campos />
+        <button class="btn-init">Iniciar</button>
     </div>
 </template>
 
 <script>
-// scripts de autenticacion
+// imports
+import Options from '@/components/auth/Options.vue'
+import Campos from '~/components/auth/Campos.vue'
 </script>
 
 <style>
-.container-auth{
-    background-color: #F2F2F2;
-    border-color: black;
+.container-general-auth{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+.auth-container{
+    background-color: burlywood;
 }
 </style>

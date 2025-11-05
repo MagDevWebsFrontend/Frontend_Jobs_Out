@@ -43,7 +43,7 @@ const handleLogin = () => {
 }
 
 const handleSignup = () => {
-  navigateTo("/auth")
+  navigateTo("/auth/register")
   console.log('Signup clicked')
 }
 
@@ -52,7 +52,6 @@ const handleHome = () =>{
 }
 
 // imports manales
-
 </script>
 
 <style scoped>
